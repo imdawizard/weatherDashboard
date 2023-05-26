@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+#current-weather {
+  margin-bottom: 20px;
+}
+
+.forecast-day {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+}
+
+#search-history {
+  margin-top: 20px;
+}
+
+#search-history li {
+  cursor: pointer;
+}
